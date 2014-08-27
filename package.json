@@ -1,0 +1,23 @@
+{
+  "name": "shouldibike",
+  "version": "0.0.0",
+  "description": "Predicting whether it is a good time to bike",
+  "main": "normalize.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/finnp/shouldibike"
+  },
+  "author": "Finn Pauls",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/finnp/shouldibike/issues"
+  },
+  "homepage": "https://github.com/finnp/shouldibike",
+  "dependencies": {
+    "ldjson-stream": "^1.2.1",
+    "through2": "^0.6.1"
+  }
+}
