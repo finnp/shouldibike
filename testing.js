@@ -18,3 +18,5 @@ console.log(net({
   temp: 22/42
 }))
 
+
+console.log(net({hum: 0.81, temp: 0.24785714285714344, windspeed: 0.125}))
