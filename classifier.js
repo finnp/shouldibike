@@ -1,6 +1,5 @@
-//brain-train --input temp,hum,windspeed --output cnt --function < data-normalized.ldjson > classifier.js
-module.exports = function (input) {
-  var net = {"layers":[{"windspeed":{},"hum":{},"temp":{}},{"0":{"bias":1.330083864174301,"weights":{"windspeed":0.42925754539274064,"hum":-7.434447883789391,"temp":-3.5600813691488042}},"1":{"bias":-0.40041844487211165,"weights":{"windspeed":-1.579431277924952,"hum":-1.6925797565198446,"temp":-0.16724966557048312}},"2":{"bias":-0.4346164512352473,"weights":{"windspeed":4.288449459403085,"hum":3.973804139731611,"temp":-8.722831159648582}}},{"cnt":{"bias":1.1227730651564638,"weights":{"0":-4.666169825110429,"1":1.4833554652234349,"2":-2.9605622679303405}}}],"outputLookup":true,"inputLookup":true};
+module.exports = function anonymous(input) {
+  var net = {"layers":[{"windspeed":{},"hum":{},"temp":{}},{"0":{"bias":2.663318169072646,"weights":{"windspeed":-1.724404421767734,"hum":-6.1770325543836355,"temp":-3.887489996685051}},"1":{"bias":1.0124430659709105,"weights":{"windspeed":-0.16621057152930307,"hum":-2.418128968222372,"temp":-0.6944138968203807}},"2":{"bias":0.712564950860795,"weights":{"windspeed":-5.610487375343748,"hum":-4.452203852724577,"temp":8.760926785625182}}},{"cnt":{"bias":-1.968416024502586,"weights":{"0":-4.309188250309845,"1":2.4124686067072854,"2":2.763285227760119}}}],"outputLookup":true,"inputLookup":true};
 
   for (var i = 1; i < net.layers.length; i++) {
     var layer = net.layers[i];
